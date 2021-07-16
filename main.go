@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/fvbock/endless"
+	_ "github.com/swaggo/gin-swagger/example/basic/docs"
 	"go-gin-example/pkg/setting"
 	"go-gin-example/routers"
 	"log"
